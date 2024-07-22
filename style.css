@@ -54,6 +54,10 @@ body {
   border: 1px solid #a38f6d;
 }
 
+.input-field input:disabled {
+  cursor: not-allowed;
+}
+
 input::-webkit-inner-spin-button,
 input::-webkit-outer-spin-button {
   display: none;
@@ -62,13 +66,13 @@ input::-webkit-outer-spin-button {
 .input-field button {
   border: none;
   background: #c8d5e3;
-  color: #32383e;
+  color: #373e32;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .input-field button:active {
-   transform: scale(0.97);
+  transform: scale(0.97);
 }
 
 .input-field button:hover {
